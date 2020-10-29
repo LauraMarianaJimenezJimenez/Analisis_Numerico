@@ -1,4 +1,4 @@
-#Quiz de Integracion
+#Quiz de Integracion, tolerancia de 0.0001
 #Laura Mariana Jimenez
 #Consulta https://www.rdocumentation.org/packages/pracma/versions/1.9.9/topics/trapz
 
