@@ -2,9 +2,9 @@
 #Laura Mariana Jimenez
 #Consulta https://www.rdocumentation.org/packages/pracma/versions/1.9.9/topics/trapz
 
-require(pracma)
+library(pracma)
 
-f<-function(x) sqrt(x)*sin(x)
+f <- function(x) sqrt(x)*sin(x)
 
 # Calculate the area under the sine curve from 0 to 2:
 
@@ -18,7 +18,7 @@ e = 1
 while(e > tol)
 {
   n = n + 1
-  x <- seq(0, 2, len = n)
+  x <- seq(a, b, len = n)
   y <- f(x)
   res <- trapz(x, y)
   
