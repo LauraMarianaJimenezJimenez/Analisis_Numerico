@@ -1,19 +1,19 @@
-//Quiz Integracion en python (sin error)
-//Laura Mariana Jimenez
+#Quiz Integracion en python (sin error)
+#Laura Mariana Jimenez
 
-//Creacion de la funcion 
+#Creacion de la funcion 
 import math
 def f(x):
     return(math.sqrt(x)*math.sin(x))
     
     
-//Solucion trapecio simple
+#Solucion trapecio simple
 from funcion import f
 def trapecio(a,b):
     return(b-a)*(f(a)+f(b))*(0.5)
 
 
-//Solucion trapecio compuesto 
+#Solucion trapecio compuesto 
 from trapecio import trapecio
 def trapecio_compuesto(a,b,n):
     if(a>b):
